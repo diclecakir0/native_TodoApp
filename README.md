@@ -1,3 +1,16 @@
+## REACT-NATIVE-TODOAPP
+
+<h4>This project is a Todo app with modern design elements developed using React Native. The app is enriched using Lottie animations, Vector Icons, and custom fonts.</h4>
+
+## Technologies Used
+- React Native
+- Lottie React Native
+- React Native Vector Icons
+- Custom Fonts
+
+## Gif
+![todoGif](./assets/todo.gif)
+
 # Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
@@ -48,3 +61,5 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+ # native_TodoApp
