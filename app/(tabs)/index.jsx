@@ -1,32 +1,14 @@
-import { Text, SafeAreaView} from 'react-native';
-import HomeScreens from '../../src/screens/HomeScreens';
-
-
+import React from 'react';
+import { SafeAreaView } from 'react-native';
+import RootNavigation from '../../src/navigation/RootNavigation';
+import { DataProvider } from '../../src/context/DataContext';
 
 export default function HomeScreen() {
   return (
-    <SafeAreaView style={{flex: 1, backgroundColor: 'white'}}> 
-      <HomeScreens />
+    <SafeAreaView style={{ flex: 1, backgroundColor: '#CD5656' }}>
+      <DataProvider>
+        <RootNavigation />
+      </DataProvider>
     </SafeAreaView>
-   
   );
 }
-
-// const styles = StyleSheet.create({
-//   titleContainer: {
-//     flexDirection: 'row',
-//     alignItems: 'center',
-//     gap: 8,
-//   },
-//   stepContainer: {
-//     gap: 8,
-//     marginBottom: 8,
-//   },
-//   reactLogo: {
-//     height: 178,
-//     width: 290,
-//     bottom: 0,
-//     left: 0,
-//     position: 'absolute',
-//   },
-// });
